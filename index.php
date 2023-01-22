@@ -1,3 +1,9 @@
+<style>
+<?php
+    include'css/navbar.css';
+?>
+</style>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,7 +27,7 @@
 <body id="page-top">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-dark nav fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Covid19-TMS</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,14 +61,14 @@
     </div>
   </nav>
 
-  <header class="bg-primary text-white">
+  <header class="text-white hero">
     <div class="container text-center">
       <h1>COVID19-TMS</h1>
       <p class="lead">COVID19 - Testing Management System</p>
     </div>
   </header>
 
-  <section id="about">
+  <section id="about" style="background: #B6EADA; color: #03001C">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
@@ -75,7 +81,7 @@
     </div>
   </section>
 
-  <section id="services" class="bg-light">
+  <section id="services" class="" style="background: #E5B8F4">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
@@ -113,7 +119,7 @@ Reported illnesses have ranged from mild symptoms to severe illness and death</p
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
+      <p class="m-0 text-center text-white">Copyright &copy; BIT Bangalore 2023</p>
     </div>
     <!-- /.container -->
   </footer>
