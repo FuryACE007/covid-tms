@@ -17,7 +17,11 @@ if(isset($_POST['login']))
     }
   }
   ?>
-
+  <style>
+  <?php
+    include('css/navbar.css')
+    ?>
+    </style>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -43,7 +47,7 @@ if(isset($_POST['login']))
 
 </head>
 
-<body class="bg-gradient-primary">
+<body class="hero">
 
     <div class="container">
 
